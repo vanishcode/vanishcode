@@ -35,6 +35,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 vanishcode
               </Link>
               <nav className="ml-auto text-sm font-medium flex items-center gap-6">
+                <Link href="/resume" className="text-ink hover:text-accent">
+                  简历
+                </Link>
                 <ModeToggle />
               </nav>
             </div>
