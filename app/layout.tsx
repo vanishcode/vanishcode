@@ -59,7 +59,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   vanishcode
                 </a>
               </span>
-              <a href="mailto:vanishcode@outlook.com">vanishcode@outlook.com</a>
+              <a href="mailto:me@vanish.codes">me@vanish.codes</a>
             </div>
           </footer>
           <Analytics />
