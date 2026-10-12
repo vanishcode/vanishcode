@@ -25,6 +25,11 @@ export const Page = defineDocumentType(() => ({
     description: {
       type: "string",
     },
+    noindex: {
+      type: "boolean",
+      required: false,
+      default: false,
+    },
   },
   computedFields,
 }))

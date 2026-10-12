@@ -33,6 +33,9 @@ export async function generateMetadata({
   return {
     title: page.title,
     description: page.description,
+    ...(page.noindex
+      ? { robots: { index: false, follow: false, nocache: true } }
+      : {}),
   }
 }
 
